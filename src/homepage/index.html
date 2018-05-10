@@ -8,9 +8,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="../css/bootstrap.min.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="../css/main.css" />
-    <link rel="stylesheet" type="text/css" media="screen" href="../css/swiper-3.4.2.min.css" />
-    <link rel="stylesheet" type="text/css" media="screen" href="../css/lightgallery.min.css" />
-    <link rel="stylesheet" type="text/css" media="screen" href="../css/lightgallery.css" />
     <!--引用百度地图API-->
     <style type="text/css">
         html,
@@ -39,21 +36,17 @@
 </head>
 
 <body>
-
-    <div class="duo-bg hidden-sm hidden-xs">
-
-    </div>
-    <div class="index-background" >
-        <div class="navbar navbar-fixed-top navbar-inverse p1">
+    <div class="index-background">
+        <div class="navbar navbar-fixed-top navbar-inverse p1" >
             <div class="container">
                 <div class="row">
-                    <div class="nav-logo col-md-2 col-sm-1  hidden-lg hidden-md" style="margin-top: -30px">
-
-                        <img alt="" width="167px" height="22px" src="../images/tempe-1.png" style="margin-top: 60px;" />
+                    <div class="nav-logo col-md-2 col-sm-1  hidden-lg hidden-md">
+    
+                        <img alt="" width="167px" height="22px" data-original="../images/tempe-1.png" style="margin-top: 24px;" />
                     </div>
                     <div class="nav-logo col-md-2 col-sm-1  hidden-sm hidden-xs ">
-
-                        <img alt="" width="167px" height="22px" src="../images/tempe-1.png" style="margin-top: 60px;" />
+    
+                        <img alt="" width="167px" height="22px" data-original="../images/tempe-1.png" style="margin-top: 24px;" />
                     </div>
                     <div class="navbar-header">
                         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navBar">
@@ -62,9 +55,9 @@
                             <span class="icon-bar"></span>
                         </button>
                     </div>
-                    <div class="collapse navbar-collapse navbar-right navba col-md-10 hidden-md col-sm-11" style="padding-top: 20px;margin-top: 30px;"
-                        id="navBar">
-                        <ul class="nav navbar-nav hidden-md hidden-sm hidden-lg" role="menu" style="font-size: 10px;">
+                    <div class="collapse navbar-collapse navbar-right navba col-md-10 hidden-md col-sm-11 xs-hd xsd_ds" style="margin-right:17px;"
+                        id="navBar" >
+                        <ul class="nav navbar-nav hidden-md hidden-sm hidden-lg" role="menu" style="font-size: 15px;">
                             <li id="b1" class="scroll_top" data-toggle="collapse" data-target="#navBar">
                                 <a href="#">首页</a>
                             </li>
@@ -88,12 +81,12 @@
                                 <a href="#">联系我们</a>
                             </li>
                             <li id="b8" data-target="#navBar" data-toggle="collapse">
-                                <a href="http://tt-cool.com">社区</a>
+                                <a href="http://tt-cool.com/forum/view/home/index.html" target="_blank">社区</a>
+                            </li>
+                            <li id="bb11">
+                                <a href="http://cloud.tt-cool.com" id="bbb11" target="_blank">云平台</a>
                             </li>
                             <li id="b9" data-target="#navBar" data-toggle="collapse">
-                                <a href="index.html">中文 </a>
-                            </li>
-                            <li id="b10" data-target="#navBar" data-toggle="collapse">
                                 <a href="English.html">English </a>
                             </li>
                         </ul>
@@ -124,13 +117,15 @@
                                 <a href="#" id="bbb7">开发者</a>
                             </li>
                             <li id="bb8">
-                                <a href="http://tt-cool.com" id="bbb8">社区</a>
+                                <a href="http://tt-cool.com/forum/view/home/index.html" id="bbb8" target="_blank">社区</a>
                             </li>
-                            <span style="position: relative;top: 12px;" id="bb9">
-                                |
-                                <a href="index.html" style="position: relative;top: 1px;color: rgba(26, 143, 239, 1)" id="bbb9"> 中文 </a> /
+                            <li id="bb10">
+                                <a href="http://cloud.tt-cool.com" id="bbb10" target="_blank">云平台</a>
+                            </li>
+                            <li id="bb11">
                                 <a href="English.html" style="position: relative;top: 1px;color: rgba(68, 68, 68, 1)"> English </a>
-                            </span>
+                            </li>
+                           
                         </ul>
                     </div>
                 </div>
@@ -138,11 +133,11 @@
         </div>
     </div>
     <div id="max_da">
-        <div class="beijin_1 hidden-sm hidden-xs">
-            <img alt="" width="100%" height="100%" src="../images/banner.png" />
+        <div class="beijin_1 hidden-sm hidden-xs" >
+            <img alt="" width="100%" height="100%" data-original="../images/banner.jpg" style="margin-top: -8px"/>
         </div>
-        <div class="hidden-md hidden-lg beijin_1">
-            <img alt="" width="100%" height="100%" src="../images/banner1.png" />
+        <div class="hidden-md hidden-lg beijin_1" >
+            <img alt="" width="100%" height="100%" data-original="../images/banner1.jpg" style="margin-top: -8px"/>
         </div>
         <div class="xiang_fuwu a">
             <div class="container hidden-xs hidden-sm">
@@ -155,13 +150,13 @@
                     <div class="col-md-4 "></div>
                     <div class="col-md-4">
                         <div class="col-md-4 col-sm-4 col-xs-4" style="border:0.5px solid rgba(229,229,229,1);opacity: 0.7;">
-
+    
                         </div>
-                        <div class="col-md-4 col-sm-4 col-xs-4 fuwu_tx1" style="margin-top: -15px;">
+                        <div class="col-md-4 col-sm-4 col-xs-4 fuwu_tx1" style="margin-top: -15px;font-weight: 600">
                             服务项目
                         </div>
                         <div class="col-md-4 col-sm-4 col-xs-4" style="border:0.5px solid rgba(229,229,229,1);opacity: 0.7;">
-
+    
                         </div>
                     </div>
                     <div class="col-md-4"></div>
@@ -170,73 +165,103 @@
             <div class="hidden-lg hidden-md" style="margin-top: -100px;height: 28px">
                 <span style="font-size:20px;
             font-family:MicrosoftYaHei;
-            color:rgba(51,51,51,1);line-height: 60px;margin-left: 20px">服务项目</span>
+            color:rgba(51,51,51,1);line-height: 60px;margin-left: 20px;font-weight: 600">服务项目</span>
             </div>
             <div class="container" style="margin-top: 30px">
                 <div class="row">
                     <div class="col-md-3 col-sm-12 col-xs-12 fuwu_kuang">
                         <div style="text-align:center;">
-                                <img alt="" width="129px" height="87px" style="margin-top: 51px" src="../images/icon1.png" />
+                            <img alt="" width="129px" height="87px" style="margin-top: 51px" data-original="../images/icon1.png" />
                         </div>
                         <div style="margin-top: 40px">
                             <p style="font-family:MicrosoftYaHei;
                     color:rgba(51,51,51,1);text-align: center;font-size:20px;">硬件设计</p>
                             <ul class="yin-color " style="padding:0;margin-top: 40px;">
                                 <li>1、路由器、无线AP、网桥等；</li>
-                                <li> 2、智能开关、智能门锁、智能共享柜；</li>
-                                <li>3、物联网（lora、zigbee、蓝牙）；</li>
-                                <li>4、支持X86、高通、MTK、realtek、宽腾达；</li>
+                                <li>2、智能开关、智能门锁、智能共享柜；</li>
+                                <li>3、物联网（Lora、Zigbee、蓝牙）；</li>
+                                <li style="display: flex">
+    
+                                    <div style="flex:1">4、</div>
+                                    <div style="flex:19">支持X86、高通、MTK、realtek、宽 腾达；</div>
+                                </li>
                                 <li>5、原理图设计、PCB设计。</li>
                             </ul>
                         </div>
                     </div>
                     <div class="col-md-3 col-sm-12 col-xs-12 fuwu_kuang">
-                            <div style="text-align:center;">
-                        <img alt="" width="122px" height="100px" style="margin-top: 51px"  src="../images/icon4.png" 
-                        />
+                        <div style="text-align:center;">
+                            <img alt="" width="122px" height="100px" style="margin-top: 51px" data-original="../images/icon4.png" />
                         </div>
                         <div style="margin-top: 40px">
                             <p style="font-family:MicrosoftYaHei;
                         color:rgba(51,51,51,1);text-align: center;margin-top: -15px;font-size:20px;">软件开发</p>
                             <ul class="yin-color " style="padding:0;margin-top: 40px;">
-                                <li>1、基于OPENWRT、ECOS的网关系统的开发；</li>
-                                <li>2、基于MQTT协议；</li>
-                                <li>3、移动APP、H5游戏、小程序、公众号；</li>
-                                <li>4、内核开发、应用开发、外围器件驱动、嵌入式；</li>
-                                <li>5、RF无线协议开发。</li>
+                                <li style="display: flex;">
+                                    <div style="flex:1">1、</div>
+                                    <div style="flex:18">基于OPENWRT、ECOS的网关系统的开发；</div>
+                                </li>
+                                <li style="display: flex;">
+                                    <div style="flex:1">2、</div>
+                                    <div style="flex:18">基于MQTT协议；</div>
+                                </li>
+                                <li style="display: flex;">
+    
+                                    <div style="flex:1">3、</div>
+                                    <div style="flex:18">移动APP、H5游戏、小程序、公众号</div>
+                                </li>
+                                <li style="display: flex;">
+    
+                                    <div style="flex:1">4、</div>
+                                    <div style="flex:18">内核开发、应用开发、外围器件驱动、嵌入式；</div>
+                                </li>
+                                <li style="display: flex;">
+    
+                                    <div style="flex:1">5、</div>
+                                    <div style="flex:18">RF无线协议开发。</div>
+                                </li>
                             </ul>
                         </div>
                     </div>
                     <div class="col-md-3 col-sm-12 col-xs-12 fuwu_kuang">
-                            <div style="text-align:center;">
-                        <img alt="" width="104px" height="118px" src="../images/icon2.png"  style="margin-top: 31px"
-                        />
+                        <div style="text-align:center;">
+                            <img alt="" width="104px" height="118px" data-original="../images/icon2.png" style="margin-top: 31px" />
                         </div>
                         <div style="margin-top: 40px">
                             <p style="font-family:MicrosoftYaHei;
                     color:rgba(51,51,51,1);text-align: center;margin-top: -15px;font-size:20px;">平台定制</p>
                             <ul class="yin-color " style="padding:0;margin-top: 40px;">
-                                <li>1、基于MQTT协议的设备管理平台；</li>
+                                <li>1、基于MQTT协议的设备管理平台；
+    
+                                </li>
                                 <li> 2、物联网平台定制；</li>
-                                <li>3、基于移动应用\H5\小程序以及公众号平台的开发；</li>
-                                <li> 4、商用wifi管理平台定制。</li>
+                                <li style="display: flex;">
+    
+                                    <div style="flex:1">3、</div>
+                                    <div style="flex:19">基于移动应用\H5\小程序以及公众号平台的开发；</div>
+                                </li>
+                                <li> 4、商用WiFi管理平台定制。</li>
                             </ul>
                         </div>
                     </div>
                     <div class="col-md-3 col-sm-12 col-xs-12 fuwu_kuang">
-                            <div style="text-align:center;">
-                        <img alt="" width="133px" height="120px" src="../images/icon3.png" style="margin-top: 31px"
-                        />
+                        <div style="text-align:center;">
+                            <img alt="" width="133px" height="120px" data-original="../images/icon3.png" style="margin-top: 31px" />
                         </div>
-
+    
                         <div style="margin-top: 40px">
                             <p style="font-family:MicrosoftYaHei;
-                        color:rgba(51,51,51,1);text-align: center;margin-top: -18px;font-size:20px;">硬件设计</p>
+                        color:rgba(51,51,51,1);text-align: center;margin-top: -18px;font-size:20px;">ODM定制
+    
+                    </p>
                             <ul class="yin-color " style="padding:0;margin-top: 40px;">
-                                <li>1、基于MQTT协议的设备管理平台；</li>
-                                <li> 2、物联网平台定制；</li>
-                                <li>3、基于移动应用\H5\小程序以及公众号平台的开发；</li>
-                                <li> 4、商用wifi管理平台定制。</li>
+                                <li> 1、软件ODM；</li>
+                                <li> 2、硬件ODM；</li>
+                                <li style="display: flex;">
+                                    <div style="flex:1">3、</div>
+                                    <div style="flex:19;">提供二次开发接口和SDK环境；</div>
+                                </li>
+                                <li> 4、提供软硬件功能模块的开发定制。</li>
                             </ul>
                         </div>
                     </div>
@@ -254,13 +279,13 @@
                     <div class="col-md-4 "></div>
                     <div class="col-md-4">
                         <div class="col-md-4 col-sm-4 col-xs-4" style="border:0.5px solid rgba(229,229,229,1);opacity: 0.7;">
-
+    
                         </div>
-                        <div class="col-md-4 col-sm-4 col-xs-4 fuwu_tx1" style="margin-top: -15px;">
+                        <div class="col-md-4 col-sm-4 col-xs-4 fuwu_tx1" style="margin-top: -15px;font-weight: 600">
                             产品展示
                         </div>
                         <div class="col-md-4 col-sm-4 col-xs-4" style="border:0.5px solid rgba(229,229,229,1);opacity: 0.7;">
-
+    
                         </div>
                     </div>
                     <div class="col-md-4"></div>
@@ -269,14 +294,14 @@
             <div class="hidden-md hidden-lg" style="margin-top: -100px;height: 58px;border-bottom: 1px solid #ececec;">
                 <span style="font-size:20px;
             font-family:MicrosoftYaHei;
-            color:rgba(51,51,51,1);line-height: 60px;margin-left: 18px
+            color:rgba(51,51,51,1);line-height: 60px;margin-left: 18px;font-weight: 600
             ">产品展示</span>
             </div>
             <div class="container hidden-sm hidden-xs" style="margin-top: 30px">
                 <div class="row">
                     <div class="col-md-3 col-sm-12 col-xs-12" id="zhe_1" style="margin-right: 0px">
                         <div class="zhan_border" style=" position: relative; left: 50%;transform: translateX(-50%)">
-                            <img alt="" width="283px" height="238px" src="../images/product2.png" />
+                            <img alt="" width="283px" height="238px" data-original="../images/product2.png" />
                             <div style="position: absolute;left: 249px;top: 212px;
                         font-family:MicrosoftYaHei;
                         ">网关</div>
@@ -291,14 +316,14 @@
                     </div>
                     <div class="col-md-3 col-sm-12 col-xs-12" id="zhe_2">
                         <div class="zhan_border" style=" position: relative; left: 50%;transform: translateX(-50%)">
-                            <img alt="" width="283px" height="238px" src="../images/product6.png" />
+                            <img alt="" width="283px" height="238px" data-original="../images/product6.png" />
                             <div style="position: absolute;left: 235px;top: 212px;
                         font-family:MicrosoftYaHei;
                         ">云平台</div>
                         </div>
                         <div class="zheyan" onclick="s1(2)" id="yan_2" style="display: none">
                             <img alt="" style="margin-top: 30%;transform:translateY(-30%);margin-left:50%;transform:translateX(-50%)" width="60px" height="60px"
-                                src="../images/jia.png" />
+                            src="../images/jia.png" />
                             <p style="font-size:18px;
                         font-family:MicrosoftYaHei;
                         color:rgba(255,253,253,1);text-align: center;margin-top: 10px">云平台</p>
@@ -306,14 +331,14 @@
                     </div>
                     <div class="col-md-3 col-sm-12 col-xs-12" id="zhe_3" style="    margin-left: 0px;">
                         <div class="zhan_border" style=" position: relative; left: 50%;transform: translateX(-50%)">
-                            <img alt="" width="283px" height="238px" src="../images/product4.png" />
+                            <img alt="" width="283px" height="238px" data-original="../images/product4.png" />
                             <div style="position: absolute;left: 249px;top: 212px;
                         font-family:MicrosoftYaHei;
                         ">NAS</div>
                         </div>
                         <div class="zheyan" onclick="s1(3)" id="yan_3" style="display: none">
                             <img alt="" style="margin-top: 30%;transform:translateY(-30%);margin-left:50%;transform:translateX(-50%)" width="60px" height="60px"
-                                src="../images/jia.png" />
+                            src="../images/jia.png" />
                             <p style="font-size:18px;
                         font-family:MicrosoftYaHei;
                         color:rgba(255,253,253,1);text-align: center;margin-top: 10px">NAS</p>
@@ -321,14 +346,14 @@
                     </div>
                     <div class="col-md-3 col-sm-12 col-xs-12" style="    margin-left: 0px;" id="zhe_4">
                         <div class="zhan_border" style=" position: relative; left: 50%;transform: translateX(-50%)">
-                            <img alt="" width="283px" height="238px" src="../images/product8.png" />
+                            <img alt="" width="283px" height="238px" data-original="../images/product8.png" />
                             <div style="position: absolute;left: 240px;top: 212px;
                         font-family:MicrosoftYaHei;
                         ">Mesh</div>
                         </div>
                         <div class="zheyan" onclick="s1(4)" id="yan_4" style="display: none">
                             <img alt="" style="margin-top: 30%;transform:translateY(-30%);margin-left:50%;transform:translateX(-50%)" width="60px" height="60px"
-                                src="../images/jia.png" />
+                            src="../images/jia.png" />
                             <p style="font-size:18px;
                         font-family:MicrosoftYaHei;
                         color:rgba(255,253,253,1);text-align: center;margin-top: 10px">Mesh</p>
@@ -336,14 +361,14 @@
                     </div>
                     <div class="col-md-3 col-sm-12 col-xs-12" style="    margin-left: 0px;" id="zhe_5">
                         <div class="zhan_border" style=" position: relative; left: 50%;transform: translateX(-50%)">
-                            <img alt="" width="283px" height="238px" src="../images/product3.png" />
+                            <img alt="" width="283px" height="238px" data-original="../images/product3.png" />
                             <div style="position: absolute;left: 249px;top: 212px;
                         font-family:MicrosoftYaHei;
                         ">网桥</div>
                         </div>
                         <div class="zheyan" onclick="s1(5)" id="yan_5" style="display: none">
                             <img alt="" style="margin-top: 30%;transform:translateY(-30%);margin-left:50%;transform:translateX(-50%)" width="60px" height="60px"
-                                src="../images/jia.png" />
+                            src="../images/jia.png" />
                             <p style="font-size:18px;
                         font-family:MicrosoftYaHei;
                         color:rgba(255,253,253,1);text-align: center;margin-top: 10px">网桥</p>
@@ -351,14 +376,14 @@
                     </div>
                     <div class="col-md-3 col-sm-12 col-xs-12" style="    margin-left: 0px;" id="zhe_6">
                         <div class="zhan_border" style=" position: relative; left: 50%;transform: translateX(-50%)">
-                            <img alt="" width="283px" height="238px" src="../images/product1.png" />
+                            <img alt="" width="283px" height="238px" data-original="../images/product1.png" />
                             <div style="position: absolute;left: 249px;top: 212px;
                         font-family:MicrosoftYaHei;
                         ">无线</div>
                         </div>
                         <div class="zheyan" onclick="s1(6)" id="yan_6" style="display: none">
                             <img alt="" style="margin-top: 30%;transform:translateY(-30%);margin-left:50%;transform:translateX(-50%)" width="60px" height="60px"
-                                src="../images/jia.png" />
+                            src="../images/jia.png" />
                             <p style="font-size:18px;
                         font-family:MicrosoftYaHei;
                         color:rgba(255,253,253,1);text-align: center;margin-top: 10px">无线</p>
@@ -366,14 +391,14 @@
                     </div>
                     <div class="col-md-3 col-sm-12 col-xs-12" style="    margin-left: 0px;" id="zhe_7">
                         <div class="zhan_border" style=" position: relative; left: 50%;transform: translateX(-50%)">
-                            <img alt="" width="283px" height="238px" src="../images/product5.png" />
+                            <img alt="" width="283px" height="238px" data-original="../images/product5.png" />
                             <div style="position: absolute;left: 235px;top: 212px;
                         font-family:MicrosoftYaHei;
                         ">物联网</div>
                         </div>
                         <div class="zheyan" onclick="s1(7)" id="yan_7" style="display: none">
                             <img alt="" style="margin-top: 30%;transform:translateY(-30%);margin-left:50%;transform:translateX(-50%)" width="60px" height="60px"
-                                src="../images/jia.png" />
+                            src="../images/jia.png" />
                             <p style="font-size:18px;
                         font-family:MicrosoftYaHei;
                         color:rgba(255,253,253,1);text-align: center;margin-top: 10px">物联网</p>
@@ -381,14 +406,14 @@
                     </div>
                     <div class="col-md-3 col-sm-12 col-xs-12" style="    margin-left: 0px;" id="zhe_8">
                         <div class="zhan_border" style=" position: relative; left: 50%;transform: translateX(-50%)">
-                            <img alt="" width="283px" height="238px" src="../images/product7.png" />
+                            <img alt="" width="283px" height="238px" data-original="../images/product7.png" />
                             <div style="position: absolute;left: 235px;top: 212px;
                         font-family:MicrosoftYaHei;
                         ">区块链</div>
                         </div>
                         <div class="zheyan" onclick="s1(8)" id="yan_8" style="display: none">
                             <img alt="" style="margin-top: 30%;transform:translateY(-30%);margin-left:50%;transform:translateX(-50%)" width="60px" height="60px"
-                                src="../images/jia.png" />
+                            src="../images/jia.png" />
                             <p style="font-size:18px;
                         font-family:MicrosoftYaHei;
                         color:rgba(255,253,253,1);text-align: center;margin-top: 10px">区块链</p>
@@ -399,105 +424,114 @@
             <div class="hidden-lg hidden-md">
                 <div class="flex_disp">
                     <div class="flex_1" onclick="myModal2(1)">
-                        <img src="../images/product1shou.png" alt="">
+                        <img data-original="../images/product1shou.png" alt="">
                         <p style="text-align: center;margin-top: 10px;font-family:MicrosoftYaHei;
                     color:rgba(85,85,85,1);">Mesh</p>
                     </div>
                     <div class="flex_2" onclick="myModal2(2)">
-                        <img src="../images/product2shou.png" alt="">
+                        <img data-original="../images/product2shou.png" alt="">
                         <p style="text-align: center;margin-top: 10px;font-family:MicrosoftYaHei;
                     color:rgba(85,85,85,1);">云平台</p>
                     </div>
                     <div class="flex_1" onclick="myModal2(3)">
-                        <img src="../images/product3shou.png" alt="">
+                        <img data-original="../images/product3shou.png" alt="">
                         <p style="text-align: center;margin-top: 10px;font-family:MicrosoftYaHei;
                         color:rgba(85,85,85,1);">NAS</p>
                     </div>
                 </div>
                 <div style="display: flex;justify-content: center; text-align: center;">
                     <div class="flex_1" onclick="myModal2(4)">
-                        <img src="../images/product4shou.png" alt="">
+                        <img data-original="../images/product4shou.png" alt="">
                         <p style="text-align: center;margin-top: 10px;font-family:MicrosoftYaHei;
                         color:rgba(85,85,85,1);">网桥</p>
                     </div>
                     <div class="flex_1" onclick="myModal2(5)">
-                        <img src="../images/product5shou.png" alt="">
+                        <img data-original="../images/product5shou.png" alt="">
                         <p style="text-align: center;margin-top: 10px;font-family:MicrosoftYaHei;
                         color:rgba(85,85,85,1);">无线</p>
                     </div>
                     <div class="flex_1" onclick="myModal2(6)">
-                        <img src="../images/product6shou.png" alt="">
+                        <img data-original="../images/product6shou.png" alt="">
                         <p style="text-align: center;margin-top: 10px;font-family:MicrosoftYaHei;
                             color:rgba(85,85,85,1);">网关</p>
                     </div>
                 </div>
                 <div style="display: flex;text-align: center;">
                     <div class="flex_1" onclick="myModal2(7)">
-                        <img src="../images/product7.png" width="115px" height="78px" alt="">
+                        <img data-original="../images/product7.png" width="115px" height="78px" alt="">
                         <p style="text-align: center;margin-top: 10px;;
                         font-family:MicrosoftYaHei;
                         color:rgba(85,85,85,1);">区块链</p>
                     </div>
                     <div class="flex_1" onclick="myModal2(8)">
-                        <img src="../images/product8shou.png" alt="">
+                        <img data-original="../images/product8shou.png" alt="">
                         <p style="text-align: center;margin-top: 10px;font-family:MicrosoftYaHei;
                         color:rgba(85,85,85,1);">物联网</p>
                     </div>
                     <div class="flex_1">
-
+    
                     </div>
                 </div>
             </div>
-
+    
         </div>
         <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" id="myModal" aria-labelledby="myLargeModalLabel">
             <div class="modal-dialog modal-lg" role="document" style="margin-top:100px;width: 1198px;height:650px">
                 <div class="modal-content">
-                    <img onclick="myModal()" src="../images/icon@3x.png" alt="" style="margin-left: 88.5%">
-                    <div style="margin-top: -140px">
-                        <div style="text-align: center;font-size:18px;
-                            font-family:MicrosoftYaHei;
-                            color:rgba(17,6,6,1);padding:20px 0;" id="model_title">
-
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                        <h4 class="modal-title" id="model_title" style="text-align: center;font-weight: 600">
+    
+                        </h4>
+                    </div>
+                    <div class="modal-body">
+                        <div>
+                            <img width="574px" id="img_yan7" height="464px" src="../images/product7-big.png" alt="" style="position: relative; left: 50%;transform:translateX(-50%);display: none">
+                            <img width="574px" id="img_yan6" height="464px" src="../images/product5-big.png" alt="" style="position: relative; left: 50%;transform:translateX(-50%);display: none">
+                            <img width="574px" id="img_yan5" height="464px" src="../images/product1-big.png" alt="" style="position: relative; left: 50%;transform:translateX(-50%);display: none">
+                            <img width="574px" id="img_yan4" height="464px" src="../images/product3-big.png" alt="" style="position: relative; left: 50%;transform:translateX(-50%);display: none">
+                            <img width="574px" id="img_yan" height="464px" src="../images/product2-big.png" alt="" style="position: relative; left: 50%;transform:translateX(-50%);display: none">
+                            <img width="638px" id="img_yan1" height="436px" src="../images/product6-big.png" alt="" style="position: relative; left: 50%;transform:translateX(-50%);display: none">
+                            <img width="574px" id="img_yan2" height="464px" src="../images/product4-big.png" alt="" style="position: relative; left: 50%;transform:translateX(-50%);display: none">
+                            <img width="574px" id="img_yan3" height="464px" src="../images/product8-big.png" alt="" style="position: relative; left: 50%;transform:translateX(-50%);display: none">
+                            <p style="font-size:18px;
+                                                 font-family:MicrosoftYaHei;
+                                                 color:rgba(17,6,6,1);padding:20px 320px;line-height: 35px" id="model_foot">
+                            </p>
                         </div>
-                        <img width="574px" id="img_yan7" height="464px" src="../images/product7-big.png" alt="" style="position: relative; left: 50%;transform:translateX(-50%);display: none">
-                        <img width="574px" id="img_yan6" height="464px" src="../images/product5-big.png" alt="" style="position: relative; left: 50%;transform:translateX(-50%);display: none">
-                        <img width="574px" id="img_yan5" height="464px" src="../images/product1-big.png" alt="" style="position: relative; left: 50%;transform:translateX(-50%);display: none">
-                        <img width="574px" id="img_yan4" height="464px" src="../images/product3-big.png" alt="" style="position: relative; left: 50%;transform:translateX(-50%);display: none">
-                        <img width="574px" id="img_yan" height="464px" src="../images/product2-big.png" alt="" style="position: relative; left: 50%;transform:translateX(-50%);display: none">
-                        <img width="638px" id="img_yan1" height="436px" src="../images/product6-big.png" alt="" style="position: relative; left: 50%;transform:translateX(-50%);display: none">
-                        <img width="574px" id="img_yan2" height="464px" src="../images/product4-big.png" alt="" style="position: relative; left: 50%;transform:translateX(-50%);display: none">
-                        <img width="574px" id="img_yan3" height="464px" src="../images/product8-big.png" alt="" style="position: relative; left: 50%;transform:translateX(-50%);display: none">
-                        <p style="font-size:18px;
-                             font-family:MicrosoftYaHei;
-                             color:rgba(17,6,6,1);padding:20px 320px" id="model_foot">
-                        </p>
                     </div>
                 </div>
             </div>
         </div>
         <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" id="myModal2" aria-labelledby="myLargeModalLabel">
-            <div class="modal-dialog modal-lg" role="document" style="margin-top:100px;width: 100%;height:180px">
+            <div class="modal-dialog modal-lg" role="document" style="margin-top: 20%; width: 100%;">
                 <div class="modal-content" style="margin-right: 19px">
-                    <div >
-                        <img onclick="hidden_myModal2()" src="../images/icon.png" style="margin-left: 87%;" alt="">
-                        <div style="text-align: center;font-size:18px;
-               font-family:MicrosoftYaHei;
-               color:rgba(17,6,6,1);padding:20px 0;" id="model_title2">
-                        </div>
-                        <div style="text-align: center">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                        <h4 class="modal-title" id="model_title2" style="text-align: center;font-weight: 600">
+    
+                        </h4>
+                    </div>
+                    <div class="modal-body">
+                        <div style="text-align: center;">
                             <img id="myModal2_img" alt="">
                         </div>
-                        <p style="font-size:18px;
-                font-family:MicrosoftYaHei;
-                color:rgba(17,6,6,1);padding:20px 30px" id="model_foot2">
-
-                        </p>
+                        <div style="display: flex;justify-content: center;width: 100%;align-items: center;padding:10px 15px;">
+                            <span style="font-size:15px;line-height: 25px;
+                            font-family:MicrosoftYaHei;
+                            color:rgba(17,6,6,1);" id="model_foot2">
+    
+                        </span>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="xiang_fuwu c"  style="background:#f4f5f6;">
+        <div class="xiang_fuwu c" style="background:#f4f5f6;">
             <div class="container hidden-sm hidden-xs" style="padding-top: 20px">
                 <div class="fuwu_tx">
                     PROFESSIONAL ADVANTAGE
@@ -508,13 +542,13 @@
                     <div class="col-md-4 "></div>
                     <div class="col-md-4">
                         <div class="col-md-4 col-sm-4 col-xs-4" style="border:0.5px solid rgba(229,229,229,1);opacity: 0.7;">
-
+    
                         </div>
-                        <div class="col-md-4 col-sm-4 col-xs-4 fuwu_tx1" style="margin-top: -15px;">
+                        <div class="col-md-4 col-sm-4 col-xs-4 fuwu_tx1" style="margin-top: -15px;font-weight: 600">
                             专业优势
                         </div>
                         <div class="col-md-4 col-sm-4 col-xs-4" style="border:0.5px solid rgba(229,229,229,1);opacity: 0.7;">
-
+    
                         </div>
                     </div>
                     <div class="col-md-4"></div>
@@ -524,50 +558,50 @@
                 <div style="border:1px solid #ececec;background: #fff;height: 58px">
                     <span style="line-height: 60px;font-size:20px;margin-left: 10px;
                 font-family:MicrosoftYaHei;
-                color:rgba(51,51,51,1);">专业优势</span>
+                color:rgba(51,51,51,1);font-weight: 600">专业优势</span>
                 </div>
             </div>
             <div class="container hidden-sm hidden-xs" style="margin-top: 20px">
                 <div class="row">
                     <div class="col-md-3 col-sm-12 col-xs-12">
                         <div class="zhuan_x" id="zhuan1" style=" position: relative; left: 50%;transform: translateX(-50%)">
-
-                            <img id="zhuan_img" width="100px" height="100px" src="../images/professional6.png" alt="" style="position: relative;left: 50%;  transform: translateX(-50%);top:30px">
+    
+                            <img id="zhuan_img" width="100px" height="100px" data-original="../images/professional6.png" alt="" style="position: relative;left: 50%;  transform: translateX(-50%);top:30px">
                             <img id="zhuan_img1" width="100px" height="100px" src="../images/professional2.png" alt="" style="position: relative;left: 50%;  transform: translateX(-50%);top:30px;display:none">
                             <div style="padding:0 40px;margin-top: 70px" id="zhuan_color">
                                 <p style="font-weight: 600;font-family:MicrosoftYaHei;">专业团队</p>
-                                <p>&nbsp;&nbsp;&nbsp; 团队核心成员来自华为、腾讯、深信服、腾达等深圳知名企业，拥有10年以上软硬件开发经验。团队核心成员来自华为、腾讯、深信服、腾达等深圳知名企业，拥有10年以上软硬件开发经验。</p>
+                                <p style="line-height: 25px;"> <span style="margin-left: 28px;">团队核心</span>成员从事数通行业10年以上，拥有丰富的软硬件开发经验，熟悉行业的动态，能够快速响应各种项目开发，在行业内遥遥领先。</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-3 col-sm-12 col-xs-12">
                         <div class="zhuan_x" id="zhuan2" style=" position: relative; left: 50%;transform: translateX(-50%)">
-                            <img id="zhuan_img_1" width="100px" height="100px" src="../images/professional1.png" alt="" style="position: relative;left: 50%;  transform: translateX(-50%);top:30px">
+                            <img id="zhuan_img_1" width="100px" height="100px" data-original="../images/professional1.png" alt="" style="position: relative;left: 50%;  transform: translateX(-50%);top:30px">
                             <img id="zhuan_img_1s" width="100px" height="100px" src="../images/professional5.png" alt="" style="position: relative;left: 50%;  transform: translateX(-50%);top:30px;display:none">
                             <div style="padding:0 40px;margin-top: 70px;" id="zhuan_color1">
                                 <p style="font-weight: 600;font-family:MicrosoftYaHei;">专业流程</p>
-                                <p>&nbsp;&nbsp;&nbsp;开发过程按照项目管理标准流程执行，从立项、分析、设计、开发、测试、验收各阶段全覆盖。</p>
+                                <p style="line-height: 25px"><span style="margin-left: 28px;">开发过程</span>按照项目管理标准流程执行，从立项、分析、设计、开发、测试、验收各阶段全覆盖。</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-3 col-sm-12 col-xs-12">
                         <div class="zhuan_x" id="zhuan3" style=" position: relative; left: 50%;transform: translateX(-50%)">
-                            <img id="zhuan_img_2" width="100px" height="100px" src="../images/professional3.png" alt="" style="position: relative;left: 50%;  transform: translateX(-50%);top:30px;">
+                            <img id="zhuan_img_2" width="100px" height="100px" data-original="../images/professional3.png" alt="" style="position: relative;left: 50%;  transform: translateX(-50%);top:30px;">
                             <img id="zhuan_img_2s" width="100px" height="100px" src="../images/professional7.png" alt="" style="position: relative;left: 50%;  transform: translateX(-50%);top:30px;display:none">
                             <div style="padding:0 40px;margin-top: 70px" id="zhuan_color2">
                                 <p style="font-weight: 600;font-family:MicrosoftYaHei;">高度定制</p>
-                                <p>&nbsp;&nbsp;&nbsp;知识产权自拥有，只有客户想不到，没有做不到，各种需求高度定制。
+                                <p style="line-height: 25px"><span style="margin-left: 28px;">知识产权</span>自拥有，只有客户想不到，没有做不到，各种需求高度定制。
                                 </p>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-3 col-sm-12 col-xs-12">
                         <div class="zhuan_x" id="zhuan4" style=" position: relative; left: 50%;transform: translateX(-50%)">
-                            <img id="zhuan_img_3" width="100px" height="100px" src="../images/professional4.png" alt="" style="position: relative;left: 50%;  transform: translateX(-50%);top:30px;">
+                            <img id="zhuan_img_3" width="100px" height="100px" data-original="../images/professional4.png" alt="" style="position: relative;left: 50%;  transform: translateX(-50%);top:30px;">
                             <img id="zhuan_img_3s" width="100px" height="100px" src="../images/professional8.png" alt="" style="position: relative;left: 50%;  transform: translateX(-50%);top:30px;display:none">
                             <div style="padding:0 40px;margin-top: 70px" id="zhuan_color3">
                                 <p style="font-weight: 600;font-family:MicrosoftYaHei;">业务领域</p>
-                                <p>&nbsp;&nbsp;&nbsp;全覆盖，智能硬件和IoT软硬件、云平台整体解决方案设计及开发一站式交付。
+                                <p style="line-height: 25px"><span style="margin-left: 28px;">全覆盖，智</span>能硬件和IoT软硬件、云平台整体解决方案设计及开发一站式交付。
                                 </p>
                             </div>
                         </div>
@@ -576,609 +610,739 @@
             </div>
             <div class="flex_zhuan hidden-lg hidden-md">
                 <div class="flex_zhuan_1">
-                    <div class="flex_zhuan_border" style="height: 280px">
+                    <div class="flex_zhuan_border" style="height: 310px">
                         <div class="flex_zhuan_img">
-                            <img src="../images/teamshou.png" alt="">
+                            <img data-original="../images/teamshou.png" alt="">
                         </div>
                         <p style="text-align: center;font-family:MicrosoftYaHei;
                             color:rgba(51,51,51,1);font-weight: 600">专业团队</p>
                         <p style="padding:0 15px;font-family:MicrosoftYaHei;
-                            color:rgba(85,85,85,1);">&nbsp;&nbsp;&nbsp;团队核心成员来自华为、腾讯、深信服、腾达等深圳知名企业，拥有10年以上软硬件开发经验。</p>
+                            color:rgba(85,85,85,1);line-height: 25px"><span style="margin-left: 28px;">团队核心</span>成员从事数通行业10年以上，拥有丰富的软硬件开发经验，熟悉行业的动态，能够快速响应各种项目开发，在行业内遥遥领先。</p>
                     </div>
                 </div>
                 <div class="flex_zhuan_2">
-                    <div class="flex_zhuan_border" style="height: 280px">
+                    <div class="flex_zhuan_border" style="height: 310px">
                         <div class="flex_zhuan_img">
-                            <img src="../images/processshou.png" alt="">
+                            <img data-original="../images/processshou.png" alt="">
                         </div>
                         <p style="text-align: center;font-family:MicrosoftYaHei;
                             color:rgba(51,51,51,1);font-weight: 600">专业流程</p>
                         <p style="padding:0 15px;font-family:MicrosoftYaHei;
-                            color:rgba(85,85,85,1);">&nbsp;&nbsp;&nbsp;开发过程按照项目管理标准流程执行，从立项、分析、设计、开发、测试、验收各阶段全覆盖。</p>
+                            color:rgba(85,85,85,1);line-height: 25px"><span style="margin-left: 28px;">开发过程</span>按照项目管理标准流程执行，从立项、分析、设计、开发、测试、验收各阶段全覆盖。</p>
                     </div>
                 </div>
             </div>
             <div class="flex_zhuan  hidden-lg hidden-md" style="margin-top: 20px;">
                 <div class="flex_zhuan_1">
-                    <div class="flex_zhuan_border" style="height: 280px">
+                    <div class="flex_zhuan_border" style="height: 310px">
                         <div class="flex_zhuan_img">
-                            <img src="../images/customshou.png" alt="">
+                            <img data-original="../images/customshou.png" alt="">
                         </div>
                         <p style="text-align: center;font-family:MicrosoftYaHei;
                                 color:rgba(51,51,51,1);font-weight: 600">高度定制</p>
                         <p style="padding:0 15px;font-family:MicrosoftYaHei;
-                                color:rgba(85,85,85,1);">&nbsp;&nbsp;&nbsp;知识产权自拥有，只有客户想不到，没有做不到，各种需求高度定制。</p>
+                                color:rgba(85,85,85,1);line-height: 25px"><span style="margin-left: 28px;">知识产权</span>自拥有，只有客户想不到，没有做不到，各种需求高度定制。</p>
                     </div>
                 </div>
                 <div class="flex_zhuan_2">
-                    <div class="flex_zhuan_border">
-                        <div class="flex_zhuan_border" style="height: 280px">
+                    <div >
+                        <div class="flex_zhuan_border" style="height: 310px">
                             <div class="flex_zhuan_img">
-                                <img src="../images/businessshou.png" alt="">
+                                <img data-original="../images/businessshou.png" alt="">
                             </div>
                             <p style="text-align: center;font-family:MicrosoftYaHei;
                                 color:rgba(51,51,51,1);font-weight: 600">业务全面</p>
                             <p style="padding:0 15px;font-family:MicrosoftYaHei;
-                                color:rgba(85,85,85,1);">&nbsp;&nbsp;&nbsp;业务领域 全覆盖，智能硬件和IoT软硬件、云平台整体解决方案设计及开发一站式交付。</p>
+                                color:rgba(85,85,85,1);line-height: 25px"><span style="margin-left: 28px;">全覆盖，智</span>能硬件和IoT软硬件、云平台整体解决方案设计及开发一站式交付。</p>
                         </div>
                     </div>
                 </div>
             </div>
             <div style="padding-top: 1px;" class="hidden-lg hidden-md">
-                    &nbsp;
-                </div>
+                &nbsp;
+            </div>
         </div>
-            <div class="xiang_fuwu  d" style="margin-top: 30px">
-                <div class="container hidden-sm hidden-xs" style="background: url('../images/bj.png') no-repeat;height: 502px">
-                    <div class="container hidden-sm hidden-xs">
-                        <div class="fuwu_tx" style="color:#fff;padding-top: 20px">
-                            COMPANY INTRODUCTION
-                        </div>
-                    </div>
-                    <div class="container hidden-sm hidden-xs" style="margin-top: 24px">
-                        <div class="row">
-                            <div class="col-md-4 "></div>
-                            <div class="col-md-4">
-                                <div class="col-md-4 col-sm-4 col-xs-4" style="border:0.5px solid rgba(229,229,229,1);opacity: 0.7;">
-
-                                </div>
-                                <div class="col-md-4 col-sm-4 col-xs-4 fuwu_tx1" style="margin-top: -15px;color:#fff">
-                                    公司介绍
-                                </div>
-                                <div class="col-md-4 col-sm-4 col-xs-4" style="border:0.5px solid rgba(229,229,229,1);opacity: 0.7;">
-
-                                </div>
-                            </div>
-                            <div class="col-md-4"></div>
-                        </div>
-                    </div>
-                    <div class="hidden-xs hidden-sm">
-                        <div class="row">
-                            <div style="margin-top: 80px;padding:0">
-                                <div class="col-md-4">
-                                    <img width="100%" height="100%" src="../images/company.png" alt="">
-                                </div>
-                                <div class="col-md-8">
-                                    <span style="font-size:16px;
-                            font-family:MicrosoftYaHei;
-                            color:rgba(254,254,254,1);
-                            line-height:35px;">
-                            &nbsp;&nbsp;&nbsp;中国数据通信软件开发商，中国数据通信解决方案提供商，团队最早成立于2012年，团队初创成员来自各大通信设备公司，利用技术优势以及行业经验，为客户提供专业的数据通信解决方案，并且取得显著的成绩。公司研发规模达到100人，产品线涵盖了无线、网关、计费认证、wifi营销、移动应用、物联网、互联网、交换机、硬件、区块链技术。产品广泛服务于政府、运营商、金融、医疗、教育、互联网、能源、交通、商业、制造业等领域。天贝物联正式成立后，确认了软件一体化解决方案的方针政策，同时提供硬件OEM\ODM。
-                                    </span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="hidden-lg hidden-md" style="background: url('../images/Introductionshou.png') no-repeat ;">
-                    <p style="font-size:20px;
-            font-family:MicrosoftYaHei;
-            color:rgba(254,254,254,1);margin-left: 19px;padding-top: 25px">公司介绍</p>
-                    <p style="font-size:15px;
-            font-family:MicrosoftYaHei;
-            color:rgba(254,254,254,1);line-height: 30px;padding:10px 30px">
-                        &nbsp;&nbsp;&nbsp; 中国数据通信软件开发商，中国数据通信解决方案提供商，团队最早成立于2012年，团队初创成员来自各大通信设备公司，利用技术优势以及行业经验，为客户提供专业的数据通信解决方案，并且取得显著的成绩。公司研发规模达到100人，产品线涵盖了无线、网关、计费认证、wifi营销、移动应用、物联网、互联网、交换机、硬件、区块链技术。产品广泛服务于政府、运营商、金融、医疗、教育、互联网、能源、交通、商业、制造业等领域。天贝物联正式成立后，确认了软件一体化解决方案的方针政策，同时提供硬件OEM\ODM。
-                    </p>
-                </div>
-            </div>
-            <div class="xiang_fuwu ">
-                <div class="container hidden-xs hidden-sm">
-                    <div class="fuwu_tx">
-                        ENTERPRISE HONOR
-                    </div>
-                </div>
-                <div class="container hidden-xs hidden-sm" style="margin-top: 24px">
-                    <div class="row">
-                        <div class="col-md-4 "></div>
-                        <div class="col-md-4">
-                            <div class="col-md-4 col-sm-4 col-xs-4" style="border:0.5px solid rgba(229,229,229,1);opacity: 0.7;">
-
-                            </div>
-                            <div class="col-md-4 col-sm-4 col-xs-4 fuwu_tx1" style="margin-top: -15px;color:#555">
-                                企业荣誉
-                            </div>
-                            <div class="col-md-4 col-sm-4 col-xs-4" style="border:0.5px solid rgba(229,229,229,1);opacity: 0.7;">
-
-                            </div>
-                        </div>
-                        <div class="col-md-4"></div>
-                    </div>
-                </div>
-                <div class="container hidden-xs hidden-sm" style="margin-top: 20px">
-                    <div class="row">
-                        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-
-                            <!-- Wrapper for slides -->
-                            <div class="carousel-inner" role="listbox">
-                                <div class="item active">
-                                    <div class="col-md-4">
-                                        <div class="rongyu" id="lun_img1">
-                                            <img src="../images/82hao.jpg" width="305px" height="408px" alt="" style="padding:20px 20px;margin-left: 20px;margin-top: 20px">
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4">
-                                        <div class="rongyu" id="lun_img2">
-                                            <img src="../images/880001.jpg" width="305px" height="408px" alt="" style="padding:20px 20px;margin-left: 20px;margin-top: 20px">
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4">
-                                        <div class="rongyu" id="lun_img3">
-                                            <img src="../images/880002.jpg" width="305px" height="408px" alt="" style="padding:20px 20px;margin-left: 20px;margin-top: 20px">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <div class="col-md-4">
-                                        <div class="rongyu" id="lun_img4">
-                                            <img src="../images/880003.jpg" width="305px" height="408px" alt="" style="padding:20px 20px;margin-left: 20px;margin-top: 20px">
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4">
-                                        <div class="rongyu" id="lun_img5">
-                                            <img src="../images/880004.jpg" width="305px" height="408px" alt="" style="padding:20px 20px;margin-left: 20px;margin-top: 20px">
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4">
-                                        <div class="rongyu" id="lun_img6">
-                                            <img src="../images/880005.jpg" width="305px" height="408px" alt="" style="padding:20px 20px;margin-left: 20px;margin-top: 20px">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <div class="col-md-4">
-                                        <div class="rongyu" id="lun_img7">
-                                            <img src="../images/880006.jpg" width="305px" height="408px" alt="" style="padding:20px 20px;margin-left: 20px;margin-top: 20px">
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4">
-                                        <div class="rongyu" id="lun_img8">
-                                            <img src="../images/880007.jpg" width="305px" height="408px" alt="" style="padding:20px 20px;margin-left: 20px;margin-top: 20px">
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4">
-                                        <div class="rongyu" id="lun_img9">
-                                            <img src="../images/880008.jpg" width="305px" height="408px" alt="" style="padding:20px 20px;margin-left: 20px;margin-top: 20px">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="item">
-                                    <div class="col-md-4">
-                                        <div class="rongyu" id="lun_img10">
-                                            <img src="../images/880009.jpg" width="305px" height="408px" alt="" style="padding:20px 20px;margin-left: 20px;margin-top: 20px">
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4">
-                                        <div class="rongyu" id="lun_img11">
-                                            <img src="../images/880010.jpg" width="305px" height="408px" alt="" style="padding:20px 20px;margin-left: 20px;margin-top: 20px">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- Controls -->
-                            <a class="left" href="#carousel-example-generic" style="position: relative;top: -240px;left: -40px" role="button" data-slide="prev">
-                                <img src="../images/more2.png" alt="">
-
-                            </a>
-                            <a class="right " href="#carousel-example-generic" role="button" style="position: relative;top: -240px;left: 1140px" data-slide="next">
-                                <img src="../images/more1.png" alt="">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="modal fade " tabindex="-1" role="dialog" id="myModal1" aria-labelledby="myLargeModalLabel">
-                    <div class="modal-dialog " role="document" style="margin-top:50px;">
-                        <img id="model_img" style="display: none" src="../images/82hao.jpg" height="900px" alt="">
-                        <img id="model_img1" style="display: none" src="../images/880001.jpg" height="900px" alt="">
-                        <img id="model_img2" style="display: none" src="../images/880002.jpg" height="900px" alt="">
-
-                        <img id="model_img3" style="display: none" src="../images/880003.jpg" height="900px" alt="">
-                        <img id="model_img4" style="display: none" src="../images/880004.jpg" height="900px" alt="">
-                        <img id="model_img5" style="display: none" src="../images/880005.jpg" height="900px" alt="">
-
-                        <img id="model_img6" style="display: none" src="../images/880006.jpg" height="900px" alt="">
-                        <img id="model_img7" style="display: none" src="../images/880007.jpg" height="900px" alt="">
-                        <img id="model_img8" style="display: none" src="../images/880008.jpg" height="900px" alt="">
-
-                        <img id="model_img9" style="display: none" src="../images/880009.jpg" height="900px" alt="">
-                        <img id="model_img10" style="display: none" src="../images/880010.jpg" height="900px" alt="">
-                    </div>
-                </div>
-                <div class="hidden-md hidden-lg" style="margin-top: -85px;;border:1px solid #ececec;height: 58px;line-height: 55px;">
-                    <span style="font-size:24px;
-            font-family:MicrosoftYaHei;
-            color:rgba(51,51,51,1);margin-left: 10px">企业荣誉</span>
-                </div>
-                <div class="hidden-lg hidden-md" style="margin-top: 20px;border-bottom:1px solid #ececec">
-                    <div class="swiper-container">
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide">
-                                <div style="text-align: center;">
-                                    <div id="myModal3">
-                                        <div id="lightgallery">
-                                            <a href="../images/880005.jpg">
-                                                <img src="../images/880006(1).png">
-                                            </a>
-                                            <a href="../images/880004.jpg">
-                                                <img src="../images/880006(1).png">
-                                            </a>
-                                            <a href="../images/880003.jpg">
-                                                <img src="../images/880006(1).png">
-                                            </a>
-
-                                        </div>
-                                    </div>
-
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div style="text-align: center;">
-                                    <div id="lightgallery1">
-                                        <a href="../images/880004.jpg">
-                                            <img src="../images/880006(1).png">
-                                        </a>
-                                        <a href="../images/880001.jpg">
-                                            <img src="../images/880006(1).png">
-                                        </a>
-                                        <a href="../images/880002.jpg">
-                                            <img src="../images/880006(1).png">
-                                        </a>
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div style="margin-top: 20px">
-
-                    </div>
-                </div>
-                <div class="container hidden-xs hidden-sm" style="margin-top: 50px;text-align: center;">
-                    <img width="481px" height="481px" style="text-align: center;" src="../images/cooperation1.png" alt="">
-                </div>
-                <div class="container hidden-md hidden-lg" style="margin-top: 50px;text-align: center;">
-                    <img width="300px" height="300px" style="text-align: center;" src="../images/cooperation1.png" alt="">
-                </div>
-            </div>
-            <div class="xiang_fuwu" style="margin-top: 140px">
+        <div class="xiang_fuwu  d" style="margin-top: 30px">
+            <div class="container hidden-sm hidden-xs" style="background: url('../images/bj.jpg') no-repeat;height: 502px">
                 <div class="container hidden-sm hidden-xs">
-                    <div class="fuwu_tx">
-                        PARTNERS
+                    <div class="fuwu_tx" style="color:#fff;padding-top: 20px">
+                        COMPANY INTRODUCTION
                     </div>
                 </div>
                 <div class="container hidden-sm hidden-xs" style="margin-top: 24px">
                     <div class="row">
                         <div class="col-md-4 "></div>
                         <div class="col-md-4">
-                            <div class="col-md-4 col-sm-4 col-xs-4" style="border:0.5px solid rgba(229,229,229,1);opacity: 0.7;">
-
+                            <div class="col-md-4 col-sm-4 col-xs-4" style="border:0.5px solid #666;opacity: 0.7;">
+    
                             </div>
-                            <div class="col-md-4 col-sm-4 col-xs-4 fuwu_tx1" style="margin-top: -15px;color:#555">
-                                合作伙伴
+                            <div class="col-md-4 col-sm-4 col-xs-4 fuwu_tx1" style="margin-top: -15px;color:#fff;font-weight: 600">
+                                公司介绍
                             </div>
-                            <div class="col-md-4 col-sm-4 col-xs-4" style="border:0.5px solid rgba(229,229,229,1);opacity: 0.7;">
-
+                            <div class="col-md-4 col-sm-4 col-xs-4" style="border:0.5px solid #666;opacity: 0.7;">
+    
                             </div>
                         </div>
                         <div class="col-md-4"></div>
                     </div>
                 </div>
-                <div class="container  hidden-sm hidden-xs" style="margin-top: 80px">
+                <div class="hidden-xs hidden-sm">
                     <div class="row">
-                        <div class="col-md-3 col-xs-12 col-sm-12">
-                            <div class="img_border">
-                                <img src="../images/ko.png" alt="">
+                        <div style="margin-top: 80px;padding:0">
+                            <div class="col-md-4">
+                                <img width="100%" height="100%" data-original="../images/company.png" alt="">
                             </div>
-                        </div>
-                        <div class="col-md-3 col-xs-12 col-sm-12">
-                            <div class="img_border">
-                                <img src="../images/ac.png" alt="">
+                            <div class="col-md-8">
+                                <span style="font-size:16px;
+                            font-family:MicrosoftYaHei;
+                            color:rgba(254,254,254,1);
+                            line-height:35px;">
+                                    &nbsp;&nbsp;&nbsp;中国数据通信软件开发商，中国数据通信解决方案提供商，团队最早成立于2012年，团队初创成员来自各大通信设备公司，利用技术优势以及行业经验，为客户提供专业的数据通信解决方案，并且取得显著的成绩。公司研发规模达到100人，产品线涵盖了无线、网关、计费认证、wifi营销、移动应用、物联网、互联网、交换机、硬件、区块链技术。产品广泛服务于政府、运营商、金融、医疗、教育、互联网、能源、交通、商业、制造业等领域。天贝物联正式成立后，致力于提供软硬件一体化开发服务，同时提供硬件OEM\ODM。
+                                </span>
                             </div>
-                        </div>
-                        <div class="col-md-3 col-xs-12 col-sm-12">
-                            <div class="img_border">
-                                <img src="../images/zt.png" alt="">
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-xs-12 col-sm-12">
-                            <div class="img_border">
-                                <img src="../images/ki.png" alt="">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="hidden-md hidden-lg" style="margin-top: -85px;;border:1px solid #ececec;height: 58px;line-height: 55px;">
-                    <span style="font-size:24px;
-                font-family:MicrosoftYaHei;
-                color:rgba(51,51,51,1);margin-left: 10px">合作伙伴</span>
-                </div>
-                <div class="hidden-lg hidden-md" style="margin-top: 20px">
-                    <div style="display: flex;padding: 20px 10px;justify-content: center">
-                        <div style="flex:1">
-                            <img src="../images/koshou.png" alt="">
-                        </div>
-                        <div style="flex:1">
-                            <img src="../images/acshou.png" alt="">
-                        </div>
-                        <div style="flex:1">
-                            <img src="../images/ztshou.png" alt="">
-                        </div>
-                        <div style="flex:1">
-                            <img src="../images/jsshou.png" alt="">
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="xiang_fuwu f xiang_dsa">
-                <div class="container hidden-sm hidden-xs">
-                    <div class="container">
-                        <div class="fuwu_tx" style="padding-top: 20px">
-                            CONNECT US
+            <div class="hidden-lg hidden-md" style="background: url('../images/Introductionshou.jpg') no-repeat ;">
+                <p style="font-size:20px;
+            font-family:MicrosoftYaHei;
+            color:rgba(254,254,254,1);margin-left: 19px;padding-top: 25px;font-weight: 600">公司介绍</p>
+                <p style="font-size:15px;
+            font-family:MicrosoftYaHei;
+            color:rgba(254,254,254,1);line-height: 30px;padding:10px 30px">
+                    &nbsp;&nbsp;&nbsp; 中国数据通信软件开发商，中国数据通信解决方案提供商，团队最早成立于2012年，团队初创成员来自各大通信设备公司，利用技术优势以及行业经验，为客户提供专业的数据通信解决方案，并且取得显著的成绩。公司研发规模达到100人，产品线涵盖了无线、网关、计费认证、wifi营销、移动应用、物联网、互联网、交换机、硬件、区块链技术。产品广泛服务于政府、运营商、金融、医疗、教育、互联网、能源、交通、商业、制造业等领域。天贝物联正式成立后，致力于提供软硬件一体化开发服务，同时提供硬件OEM\ODM。
+                </p>
+            </div>
+        </div>
+        <div class="xiang_fuwu ">
+            <div class="container hidden-xs hidden-sm">
+                <div class="fuwu_tx">
+                    ENTERPRISE HONOR
+                </div>
+            </div>
+            <div class="container hidden-xs hidden-sm" style="margin-top: 24px">
+                <div class="row">
+                    <div class="col-md-4 "></div>
+                    <div class="col-md-4">
+                        <div class="col-md-4 col-sm-4 col-xs-4" style="border:0.5px solid rgba(229,229,229,1);opacity: 0.7;">
+    
+                        </div>
+                        <div class="col-md-4 col-sm-4 col-xs-4 fuwu_tx1" style="margin-top: -15px;color:#555;font-weight: 600">
+                            企业荣誉
+                        </div>
+                        <div class="col-md-4 col-sm-4 col-xs-4" style="border:0.5px solid rgba(229,229,229,1);opacity: 0.7;">
+    
                         </div>
                     </div>
-                    <div class="container" style="margin-top: 24px">
-                        <div class="row">
-                            <div class="col-md-4 "></div>
-                            <div class="col-md-4">
-                                <div class="col-md-4 col-sm-4 col-xs-4" style="border:1px solid rgba(229,229,229,1);">
-
+                    <div class="col-md-4"></div>
+                </div>
+            </div>
+            <div class="container hidden-xs hidden-sm" id="lunboqi" style="margin-top: 20px">
+                <div class="row">
+                    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+    
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner" role="listbox">
+                            <div class="item active">
+                                <div class="col-md-4">
+                                    <div class="rongyu" id="lun_img1">
+                                        <img data-original="../images/82hao.jpg" width="305px" height="408px" alt="" style="padding:20px 20px;margin-left: 20px;margin-top: 20px">
+                                    </div>
                                 </div>
-                                <div class="col-md-4 col-sm-4 col-xs-4 fuwu_tx1" style="margin-top: -15px;color:#555">
-                                    联系我们
+                                <div class="col-md-4">
+                                    <div class="rongyu" id="lun_img2">
+                                        <img data-original="../images/880001.jpg" width="305px" height="408px" alt="" style="padding:20px 20px;margin-left: 20px;margin-top: 20px">
+                                    </div>
                                 </div>
-                                <div class="col-md-4 col-sm-4 col-xs-4" style="border:1px solid rgba(229,229,229,1);">
-
+                                <div class="col-md-4">
+                                    <div class="rongyu" id="lun_img3">
+                                        <img data-original="../images/880002.jpg" width="305px" height="408px" alt="" style="padding:20px 20px;margin-left: 20px;margin-top: 20px">
+                                    </div>
                                 </div>
                             </div>
-                            <div class="col-md-4"></div>
+                            <div class="item">
+                                <div class="col-md-4">
+                                    <div class="rongyu" id="lun_img4">
+                                        <img data-original="../images/880003.jpg" width="305px" height="408px" alt="" style="padding:20px 20px;margin-left: 20px;margin-top: 20px">
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="rongyu" id="lun_img5">
+                                        <img  data-original="../images/880004.jpg" width="305px" height="408px" alt="" style="padding:20px 20px;margin-left: 20px;margin-top: 20px">
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="rongyu" id="lun_img6">
+                                        <img  data-original="../images/880005.jpg" width="305px" height="408px" alt="" style="padding:20px 20px;margin-left: 20px;margin-top: 20px">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="col-md-4">
+                                    <div class="rongyu" id="lun_img7">
+                                        <img  data-original="../images/880006.jpg" width="305px" height="408px" alt="" style="padding:20px 20px;margin-left: 20px;margin-top: 20px">
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="rongyu" id="lun_img8">
+                                        <img  data-original="../images/880007.jpg" width="305px" height="408px" alt="" style="padding:20px 20px;margin-left: 20px;margin-top: 20px">
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="rongyu" id="lun_img9">
+                                        <img  data-original="../images/880008.jpg" width="305px" height="408px" alt="" style="padding:20px 20px;margin-left: 20px;margin-top: 20px">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="col-md-4">
+                                    <div class="rongyu" id="lun_img10">
+                                        <img  data-original="../images/880009.jpg" width="305px" height="408px" alt="" style="padding:20px 20px;margin-left: 20px;margin-top: 20px">
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="rongyu" id="lun_img11">
+                                        <img  data-original="../images/880010.jpg" width="305px" height="408px" alt="" style="padding:20px 20px;margin-left: 20px;margin-top: 20px">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <!-- Controls -->
+                        <a class="left" href="#carousel-example-generic" style="position: relative;top: -240px;left: -40px" role="button" data-slide="prev">
+                            <img data-original="../images/more2.png" alt="" id="prev">
+    
+                        </a>
+                        <a class="right " href="#carousel-example-generic" role="button" style="position: relative;top: -240px;left: 1140px" data-slide="next" >
+                            <img data-original="../images/more1.png" alt="" id="next_s">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade " tabindex="-1" role="dialog" id="myModal1" aria-labelledby="myLargeModalLabel">
+                <div class="modal-dialog " id="modal_ims" role="document" style="margin-top:50px;">
+                     <img id="model_img"  height="900px" alt="" >
+                </div>
+            </div>
+            <div class="hidden-md hidden-lg" style="margin-top: -85px;;border:1px solid #ececec;height: 58px;line-height: 55px;">
+                <span style="font-size:24px;
+            font-family:MicrosoftYaHei;
+            color:rgba(51,51,51,1);margin-left: 10px;font-weight: 600">企业荣誉</span>
+            </div>
+            <div class="hidden-lg hidden-md" style="margin-top: 20px;border-bottom:1px solid #ececec">
+                    <div class="swiper-container">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div style="text-align: center;">
+                                        <div id="myModal3">
+                                            <div id="lightgallery">
+                                                <a href="../images/82hao.jpg">
+                                                    <img data-original="../images/82hao.jpg" width="101px" height="134px">
+                                                </a>
+                                                <a href="../images/880004.jpg">
+                                                    <img data-original="../images/880004.jpg" width="101px" height="134px">
+                                                </a>
+                                                <a href="../images/880002.jpg">
+                                                    <img data-original="../images/880002.jpg" width="101px" height="134px">
+                                                </a>
+                                        
+                                        
+                                                <a style="display: none" href="../images/880003.jpg">
+                                                    <img data-original="../images/880003.jpg" width="101px" height="134px">
+                                                </a>
+                                                <a style="display: none" href="../images/880004.jpg">
+                                                    <img data-original="../images/880004.jpg">
+                                                </a>
+                                                <a style="display: none" href="../images/880005.jpg">
+                                                    <img data-original="../images/880005.jpg">
+                                                </a>
+                                        
+                                                <a style="display: none" href="../images/880006.jpg">
+                                                    <img data-original="../images/880006.jpg">
+                                                </a>
+                                                <a style="display: none" href="../images/880007.jpg">
+                                                    <img data-original="../images/880007.jpg">
+                                                </a>
+                                                <a style="display: none" href="../images/880008.jpg">
+                                                    <img data-original="../images/880008.jpg">
+                                                </a>
+                                        
+                                                <a style="display: none" href="../images/880009.jpg">
+                                                    <img data-original="../images/880009.jpg">
+                                                </a>
+                                                <a style="display: none" href="../images/880010.jpg">
+                                                    <img data-original="../images/880010.jpg">
+                                                </a>
+                                            </div>
+                                        </div>
+                            
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div style="text-align: center;">
+                                        <div id="lightgallery1">
+                                                <a style="display: none" href="../images/82hao.jpg">
+                                                    <img data-original="../images/82hao.jpg">
+                                                </a>
+                                                <a style="display: none" href="../images/880004.jpg">
+                                                    <img data-original="../images/880004.jpg">
+                                                </a>
+                                                <a style="display: none" href="../images/880002.jpg">
+                                                    <img data-original="../images/880002.jpg">
+                                                </a>
+                            
+                            
+                                                <a  href="../images/880003.jpg">
+                                                    <img data-original="../images/880003.jpg"  width="101px" height="134px">
+                                                </a>
+                                                <a  href="../images/880004.jpg">
+                                                    <img data-original="../images/880004.jpg"  width="101px" height="134px">
+                                                </a>
+                                                <a  href="../images/880005.jpg">
+                                                    <img data-original="../images/880005.jpg"  width="101px" height="134px">
+                                                </a>
+                            
+                                                <a style="display: none" href="../images/880006.jpg">
+                                                    <img data-original="../images/880006.jpg">
+                                                </a>
+                                                <a style="display: none" href="../images/880007.jpg">
+                                                    <img data-original="../images/880007.jpg">
+                                                </a>
+                                                <a style="display: none" href="../images/880008.jpg">
+                                                    <img data-original="../images/880008.jpg">
+                                                </a>
+                            
+                                                <a style="display: none" href="../images/880009.jpg">
+                                                    <img data-original="../images/880009.jpg">
+                                                </a>
+                                                <a style="display: none" href="../images/880010.jpg">
+                                                    <img data-original="../images/880010.jpg">
+                                                </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                        <div style="text-align: center;">
+                                            <div id="lightgallery2">
+                                                    <a style="display: none" href="../images/82hao.jpg">
+                                                        <img data-original="../images/82hao.jpg">
+                                                    </a>
+                                                    <a style="display: none" href="../images/880004.jpg">
+                                                        <img data-original="../images/880004.jpg">
+                                                    </a>
+                                                    <a style="display: none" href="../images/880002.jpg">
+                                                        <img data-original="../images/880002.jpg">
+                                                    </a>
+                            
+                            
+                                                    <a  style="display: none"  href="../images/880003.jpg">
+                                                        <img data-original="../images/880003.jpg">
+                                                    </a>
+                                                    <a style="display: none"  href="../images/880004.jpg">
+                                                        <img data-original="../images/880004.jpg">
+                                                    </a>
+                                                    <a  style="display: none"  href="../images/880005.jpg">
+                                                        <img data-original="../images/880005.jpg">
+                                                    </a>
+                            
+                                                    <a  href="../images/880006.jpg">
+                                                        <img data-original="../images/880006.jpg" width="101px" height="134px">
+                                                    </a>
+                                                    <a  href="../images/880007.jpg">
+                                                        <img data-original="../images/880007.jpg" width="101px" height="134px">
+                                                    </a>
+                                                    <a  href="../images/880008.jpg">
+                                                        <img data-original="../images/880008.jpg" width="101px" height="134px">
+                                                    </a>
+                            
+                                                    <a style="display: none" href="../images/880009.jpg">
+                                                        <img data-original="../images/880009.jpg">
+                                                    </a>
+                                                    <a style="display: none" href="../images/880010.jpg">
+                                                        <img data-original="../images/880010.jpg">
+                                                    </a>
+                                            </div>
+                                        </div>
+                                </div>
+                                <div class="swiper-slide">
+                                        <div style="text-align: center;">
+                                            <div id="lightgallery3">
+                                                    <a style="display: none" href="../images/82hao.jpg">
+                                                        <img data-original="../images/82hao.jpg">
+                                                    </a>
+                                                    <a style="display: none" href="../images/880004.jpg">
+                                                        <img data-original="../images/880004.jpg">
+                                                    </a>
+                                                    <a style="display: none" href="../images/880002.jpg">
+                                                        <img data-original="../images/880002.jpg">
+                                                    </a>
+                            
+                            
+                                                    <a  style="display: none"  href="../images/880003.jpg">
+                                                        <img data-original="../images/880003.jpg">
+                                                    </a>
+                                                    <a style="display: none"  href="../images/880004.jpg">
+                                                        <img data-original="../images/880004.jpg">
+                                                    </a>
+                                                    <a  style="display: none"  href="../images/880005.jpg">
+                                                        <img data-original="../images/880005.jpg">
+                                                    </a>
+                            
+                                                    <a style="display: none" href="../images/880006.jpg" >
+                                                        <img data-original="../images/880006.jpg">
+                                                    </a>
+                                                    <a style="display: none" href="../images/880007.jpg">
+                                                        <img data-original="../images/880007.jpg">
+                                                    </a>
+                                                    <a style="display: none" href="../images/880008.jpg">
+                                                        <img data-original="../images/880008.jpg">
+                                                    </a>
+                            
+                                                    <a  href="../images/880009.jpg">
+                                                        <img data-original="../images/880009.jpg" width="101px" height="134px">
+                                                    </a>
+                                                    <a  href="../images/880010.jpg">
+                                                        <img data-original="../images/880009.jpg"  width="101px" height="134px">
+                                                    </a>
+                                            </div>
+                                        </div>
+                                </div>
+                            </div>
+                            </div>
+                <div style="margin-top: 20px">
+    
+                </div>
+            </div>
+            <div style="border:0.5px solid #ececec;margin-top: 60px" class="hidden-sm hidden-xs">
+    
+            </div>
+            <div class="container hidden-xs hidden-sm" style="margin-top: 80px;text-align: center;">
+                <img width="481px" height="481px" style="text-align: center;" data-original="../images/cooperation1.png" alt="">
+            </div>
+            <div class="container hidden-md hidden-lg" style="margin-top: 50px;text-align: center;">
+                <img width="300px" height="300px" style="text-align: center;" data-original="../images/cooperation1.png" alt="">
+            </div>
+        </div>
+        <div class="xiang_fuwu" style="margin-top: 140px;display:none">
+            <div class="container hidden-sm hidden-xs">
+                <div class="fuwu_tx">
+                    PARTNERS
+                </div>
+            </div>
+            <div class="container hidden-sm hidden-xs" style="margin-top: 24px;display: none">
+                <div class="row">
+                    <div class="col-md-4 "></div>
+                    <div class="col-md-4">
+                        <div class="col-md-4 col-sm-4 col-xs-4" style="border:0.5px solid rgba(229,229,229,1);opacity: 0.7;">
+    
+                        </div>
+                        <div class="col-md-4 col-sm-4 col-xs-4 fuwu_tx1" style="margin-top: -15px;color:#555;font-weight: 600">
+                            合作伙伴
+                        </div>
+                        <div class="col-md-4 col-sm-4 col-xs-4" style="border:0.5px solid rgba(229,229,229,1);opacity: 0.7;">
+    
                         </div>
                     </div>
-                    <div class="container hidden-xs hidden-sm" style="margin-top: 220px">
-                        <div class="col-md-2" id="lianxi_1">
-                            <div>
-                                <img id="lianxi_1s_img" width="57px" height="57px" style="position: relative; left: 50%;transform: translateX(-50%);" src="../images/address2.png"
-                                    alt="">
-                                <img id="lianxi_1_img" width="57px" height="57px" style="position: relative; left: 50%;transform: translateX(-50%);display: none"
-                                    src="../images/address.png" alt="">
+                    <div class="col-md-4"></div>
+                </div>
+            </div>
+            <div class="container  hidden-sm hidden-xs" style="margin-top: 80px;display: none">
+                <div class="row">
+                    <div class="col-md-3 col-xs-12 col-sm-12">
+                        <div class="img_border">
+                            <img data-original="../images/ko.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-xs-12 col-sm-12">
+                        <div class="img_border">
+                            <img data-original="../images/ac.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-xs-12 col-sm-12">
+                        <div class="img_border">
+                            <img data-original="../images/zt.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-xs-12 col-sm-12">
+                        <div class="img_border">
+                            <img data-original="../images/ki.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="hidden-md hidden-lg" style="margin-top: -85px;;border:1px solid #ececec;height: 58px;line-height: 55px;display: none">
+                <span style="font-size:24px;
+                font-family:MicrosoftYaHei;
+                color:rgba(51,51,51,1);margin-left: 10px;font-weight: 600">合作伙伴</span>
+            </div>
+            <div class="hidden-lg hidden-md" style="margin-top: 20px;display: none">
+                <div style="display: flex;padding: 20px 10px;justify-content: center">
+                    <div style="flex:1">
+                        <img data-original="../images/koshou.png" alt="">
+                    </div>
+                    <div style="flex:1">
+                        <img data-original="../images/acshou.png" alt="">
+                    </div>
+                    <div style="flex:1">
+                        <img data-original="../images/ztshou.png" alt="">
+                    </div>
+                    <div style="flex:1">
+                        <img data-original="../images/jsshou.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="xiang_fuwu f xiang_dsa" id="height_top">
+            <div class="container hidden-sm hidden-xs">
+                <div class="container">
+                    <div class="fuwu_tx" style="padding-top: 20px">
+                        CONNECT US
+                    </div>
+                </div>
+                <div class="container" style="margin-top: 24px">
+                    <div class="row">
+                        <div class="col-md-4 "></div>
+                        <div class="col-md-4">
+                            <div class="col-md-4 col-sm-4 col-xs-4" style="border:1px solid rgba(229,229,229,1);">
+    
                             </div>
-                            <p style="font-size:16px;
+                            <div class="col-md-4 col-sm-4 col-xs-4 fuwu_tx1" style="margin-top: -15px;color:#555;font-weight: 600">
+                                联系我们
+                            </div>
+                            <div class="col-md-4 col-sm-4 col-xs-4" style="border:1px solid rgba(229,229,229,1);">
+    
+                            </div>
+                        </div>
+                        <div class="col-md-4"></div>
+                    </div>
+                </div>
+                <div class="container hidden-xs hidden-sm" style="margin-top: 220px">
+                    <div class="col-md-2" id="lianxi_1">
+                        <div>
+                            <img id="lianxi_1s_img" width="57px" height="57px" style="position: relative; left: 50%;transform: translateX(-50%);" data-original="../images/address2.png"
+                                alt="">
+                            <img id="lianxi_1_img" width="57px" height="57px" style="position: relative; left: 50%;transform: translateX(-50%);display: none"
+                               src="../images/address.png" alt="">
+                        </div>
+                        <p style="font-size:16px;
                     font-family:MicrosoftYaHei;
-                    color:rgba(51,51,51,1);margin-top: 20px" id="lianxi_tx">深圳市南山区桃源街道丽山路 10号桑泰大厦1201
-                            </p>
+                    color:rgba(51,51,51,1);margin-top: 20px" id="lianxi_tx">深圳市南山区桃源街道丽山路硅谷大学城创业园1810室
+                        </p>
+                    </div>
+                    <div class="col-md-2" id="lianxi_2">
+                        <div>
+                            <img id="lianxi_2s_img" data-original="../images/phone.png" alt="" style="position: relative; left: 50%;transform: translateX(-50%);">
+                            <img id="lianxi_2_img" src="../images/phone2.png" alt="" style="position: relative; left: 50%;transform: translateX(-50%);display: none">
                         </div>
-                        <div class="col-md-2" id="lianxi_2">
-                            <div>
-                                <img id="lianxi_2s_img" src="../images/phone.png" alt="" style="position: relative; left: 50%;transform: translateX(-50%);">
-                                <img id="lianxi_2_img" src="../images/phone2.png" alt="" style="position: relative; left: 50%;transform: translateX(-50%);display: none">
-                            </div>
-                            <p style="font-size:16px;
+                        <p style="font-size:16px;
                     font-family:MicrosoftYaHei;
                     color:rgba(51,51,51,1);margin-top: 20px;text-align: center" id="lianxi_tx1">18038059825
-                            </p>
+                        </p>
+                    </div>
+                    <div class="col-md-2" id="lianxi_3">
+                        <div>
+                            <img id="lianxi_3s_img" data-original="../images/qq.png" alt="" style="position: relative; left: 50%;transform: translateX(-50%);">
+                            <img id="lianxi_3_img" src="../images/qq2.png" alt="" style="position: relative; left: 50%;transform: translateX(-50%);display: none">
                         </div>
-                        <div class="col-md-2" id="lianxi_3">
-                            <div>
-                                <img id="lianxi_3s_img" src="../images/qq.png" alt="" style="position: relative; left: 50%;transform: translateX(-50%);">
-                                <img id="lianxi_3_img" src="../images/qq2.png" alt="" style="position: relative; left: 50%;transform: translateX(-50%);display: none">
-                            </div>
-                            <p style="font-size:16px;
+                        <p style="font-size:16px;
                     font-family:MicrosoftYaHei;
                     color:rgba(51,51,51,1);margin-top: 20px;text-align: center" id="lianxi_tx2">505363286
-                            </p>
+                        </p>
+                    </div>
+                    <div class="col-md-2" id="lianxi_4">
+                        <div>
+                            <img id="lianxi_4s_img" data-original="../images/e-m.png" alt="" style="position: relative; left: 50%;transform: translateX(-50%);">
+                            <img id="lianxi_4_img" src="../images/e-m2.png" alt="" style="position: relative; left: 50%;transform: translateX(-50%);display: none">
                         </div>
-                        <div class="col-md-2" id="lianxi_4">
-                            <div>
-                                <img id="lianxi_4s_img" src="../images/e-m.png" alt="" style="position: relative; left: 50%;transform: translateX(-50%);">
-                                <img id="lianxi_4_img" src="../images/e-m2.png" alt="" style="position: relative; left: 50%;transform: translateX(-50%);display: none">
-                            </div>
-                            <p style="font-size:16px;
+                        <p style="font-size:16px;
                     font-family:MicrosoftYaHei;
                     color:rgba(51,51,51,1);margin-top: 20px;text-align: center" id="lianxi_tx3">tempe@tt-cool.com
-                            </p>
-                        </div>
-                        <div class="col-md-4">
-                            <div style="text-align: center;margin-top: -60px">
-                                <img width="186px" height="186px" src="../images/Focus.png" alt="">
-                            </div>
-                        </div>
+                        </p>
                     </div>
-                    <div class="container hidden-lg hidden-md" style="margin-top: 30px">
-                        <div class="flex_dir">
-                            <div class="flex_left">
-                                <div class="flex_xs">
-                                    <div class="flex_xs_img">
-                                        <img src="../images/phone2.png" width="34px" height="34px" alt="">
-                                    </div>
-                                    <div class="flex_xs_tx">
-                                        <span>18038059825</span>
-                                    </div>
-                                </div>
-                                <div class="flex_xs">
-                                    <div class="flex_xs_img">
-                                        <img src="../images/qq2.png" width="34px" height="34px" alt="">
-                                    </div>
-                                    <div class="flex_xs_tx">
-                                        <span>505363286</span>
-                                    </div>
-                                </div>
-                                <div class="flex_xs">
-                                    <div class="flex_xs_img">
-                                        <img src="../images/e-m2.png" width="34px" height="34px" alt="">
-                                    </div>
-                                    <div class="flex_xs_tx">
-                                        <span>tempe@tt-cool.com</span>
-                                    </div>
-                                </div>
-                                <div class="flex_xs">
-                                    <div class="flex_xs_img">
-                                        <img src="../images/address.png" width="34px" height="34px" alt="">
-                                    </div>
-                                    <div class="flex_xs_tx">
-                                        <span>深圳市南山区桃源街道丽山路10号桑泰大厦1201</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="flex_right">
-                                <img src="../images/Focus.png" width="128px" height="128px" alt="">
-                                <div style="text-align: center;margin-left: 30px">扫一扫 关注我们
-                                </div>
-                            </div>
+                    <div class="col-md-4">
+                        <div style="text-align: center;margin-top: -60px;margin-left: 180px">
+                            <img width="186px" height="186px" data-original="../images/Focus.png" alt="">
                         </div>
                     </div>
                 </div>
-                <div class="hidden-md hidden-lg" style="margin-top: -85px;;border:1px solid #ececec;height: 58px;line-height: 55px;">
-                    <span style="font-size:24px;
-                    font-family:MicrosoftYaHei;
-                    color:rgba(51,51,51,1);margin-left: 10px">联系我们</span>
-                </div>
-                <div class="hidden-lg hidden-md" style="display: flex;justify-content: space-between;">
-                    <div style="display: flex;flex-wrap: wrap;flex-direction: column;padding:20px;">
-                        <div style="display:flex;align-items: center">
-                            <div style="flex:1">
-                                <img src="../images/phone2.png" width="34px" height="34px" alt="">
+                <div class="container hidden-lg hidden-md" style="margin-top: 30px">
+                    <div class="flex_dir">
+                        <div class="flex_left">
+                            <div class="flex_xs">
+                                <div class="flex_xs_img">
+                                    <img data-original="../images/phone2.png" width="34px" height="34px" alt="">
+                                </div>
+                                <div class="flex_xs_tx">
+                                    <span>18038059825</span>
+                                </div>
                             </div>
-                            <div style="flex:3;">
-                                <span>18038059825</span>
+                            <div class="flex_xs">
+                                <div class="flex_xs_img">
+                                    <img data-original="../images/qq2.png" width="34px" height="34px" alt="">
+                                </div>
+                                <div class="flex_xs_tx">
+                                    <span>505363286</span>
+                                </div>
+                            </div>
+                            <div class="flex_xs">
+                                <div class="flex_xs_img">
+                                    <img data-original="../images/e-m2.png" width="34px" height="34px" alt="">
+                                </div>
+                                <div class="flex_xs_tx">
+                                    <span>tempe@tt-cool.com</span>
+                                </div>
+                            </div>
+                            <div class="flex_xs">
+                                <div class="flex_xs_img">
+                                    <img data-original="../images/address.png" width="34px" height="34px" alt="">
+                                </div>
+                                <div class="flex_xs_tx">
+                                    <span>深圳市南山区桃源街道丽山路10号桑泰大厦1201</span>
+                                </div>
                             </div>
                         </div>
-                        <div style="display:flex;align-items: center;margin-top: 15px">
-                            <div style="flex:1">
-                                <img src="../images/qq2.png" width="34px" height="34px" alt="">
-                            </div>
-                            <div style="flex:3;">
-                                <span>505363286</span>
-                            </div>
-                        </div>
-                        <div style="display:flex;align-items: center;margin-top: 15px">
-                            <div style="flex:1">
-                                <img src="../images/e-m2.png" width="34px" height="34px" alt="">
-                            </div>
-                            <div style="flex:3">
-                                <span>tempe@tt-cool.com</span>
-                            </div>
-                        </div>
-                        <div style="display:flex;align-items: center;margin-top: 15px">
-                            <div style="flex:1">
-                                <img src="../images/address.png" width="34px" height="34px" alt="">
-                            </div>
-                            <div style="flex:3">
-                                <span>深圳市南山区桃源街道丽山路10号桑泰大厦1201</span>
+                        <div class="flex_right">
+                            <img data-original="../images/Focus.png" width="128px" height="128px" alt="">
+                            <div style="text-align: center;margin-left: 30px">扫一扫 关注我们
                             </div>
                         </div>
                     </div>
-                    <div style="margin-right: 20px;display: flex;flex-wrap: wrap;flex-direction: column;margin-top: 40px">
-                        <img src="../images/Focusshou.png" alt="">
-                        <span style="width: 60px;text-align: center">扫一扫</span>
-                        <p style="text-align: center">关注我们</p>
-                    </div>
-                </div>
-                <div class="hidden-lg hidden-md">
-                    <div style="width:100%;height:223px;border:#ccc solid 1px;margin-bottom: 40px;margin-top: 30px" id="dituContent"></div>
                 </div>
             </div>
-
-
-
-            <div class="hidden-xs hidden-sm" style=" background: rgba(36,128,204,1)">
-                <div class="container">
-                    <div class="row">
-                        <div style="margin-top: 0px">
-                            <div class="col-md-3 col-sm-12 col-xs-12">
-                                <img width="165px" style="margin-top: 15px" height="22px" src="../images/tempe-2.png" alt="">
-                            </div>
-                            <div class="col-md-3 col-sm-12 col-xs-12" style="margin-top: 15px">
-                                <a style="font-size:16px;
+            <div class="hidden-md hidden-lg" style="margin-top: -85px;;border:1px solid #ececec;height: 58px;line-height: 55px;">
+                <span style="font-size:24px;
+                    font-family:MicrosoftYaHei;
+                    color:rgba(51,51,51,1);margin-left: 10px;font-weight: 600">联系我们</span>
+            </div>
+            <div class="hidden-lg hidden-md" style="display: flex;justify-content: space-between;">
+                <div style="display: flex;flex-wrap: wrap;flex-direction: column;padding:20px;">
+                    <div style="display:flex;align-items: center">
+                        <div style="flex:1">
+                            <img data-original="../images/phone2.png" width="34px" height="34px" alt="">
+                        </div>
+                        <div style="flex:3;">
+                            <span>18038059825</span>
+                        </div>
+                    </div>
+                    <div style="display:flex;align-items: center;margin-top: 15px">
+                        <div style="flex:1">
+                            <img data-original="../images/qq2.png" width="34px" height="34px" alt="">
+                        </div>
+                        <div style="flex:3;">
+                            <span>505363286</span>
+                        </div>
+                    </div>
+                    <div style="display:flex;align-items: center;margin-top: 15px">
+                        <div style="flex:1">
+                            <img data-original="../images/e-m2.png" width="34px" height="34px" alt="">
+                        </div>
+                        <div style="flex:3">
+                            <span>tempe@tt-cool.com</span>
+                        </div>
+                    </div>
+                    <div style="display:flex;align-items: center;margin-top: 15px">
+                        <div style="flex:1">
+                            <img data-original="../images/address.png" width="34px" height="34px" alt="">
+                        </div>
+                        <div style="flex:3">
+                            <span>深圳市南山区桃源街道丽山路硅谷大学城创业园1810室</span>
+                        </div>
+                    </div>
+                </div>
+                <div style="margin-right: 20px;display: flex;flex-wrap: wrap;flex-direction: column;margin-top: 40px">
+                    <img data-original="../images/Focusshou.png" alt="">
+                    <span style="width: 60px;text-align: center">扫一扫</span>
+                    <p style="text-align: center">关注我们</p>
+                </div>
+            </div>
+            <div class="hidden-lg hidden-md">
+                <div style="width:100%;height:223px;border:#ccc solid 1px;margin-bottom: 40px;margin-top: 30px" id="dituContent"></div>
+            </div>
+        </div>
+    
+    
+    
+        <div class="hidden-xs hidden-sm" style=" background: rgba(36,128,204,1)">
+            <div class="container">
+                <div class="row">
+                    <div style="margin-top: 0px">
+                        <div class="col-md-3 col-sm-12 col-xs-12">
+                            <img width="165px" style="margin-top: 15px" height="22px" data-original="../images/tempe-2.png" alt="">
+                        </div>
+                        <div class="col-md-3 col-sm-12 col-xs-12" style="margin-top: 15px">
+                            <a style="font-size:16px;
                         font-family:MicrosoftYaHei;
                         color:rgba(255,255,255,1);">关于我们</a>
-                            </div>
-                            <div class="col-md-3 col-sm-12 col-xs-12" style="margin-top: 15px">
-                                <a style="font-size:16px;
+                        </div>
+                        <div class="col-md-3 col-sm-12 col-xs-12" style="margin-top: 15px">
+                            <a style="font-size:16px;
                         font-family:MicrosoftYaHei;
                         color:rgba(255,255,255,1);" target="_blank" href="http://tt-cool.com/forum/view/employment/employment.html">人才招聘</a>
-                            </div>
-                            <div class="col-md-3 col-sm-12 col-xs-12" style="margin-top: 15px">
-                                <a href="http://tt-cool.com" target="_blank" style="font-size:16px;
+                        </div>
+                        <div class="col-md-3 col-sm-12 col-xs-12" style="margin-top: 15px">
+                            <a href="http://tt-cool.com/forum/view/home/index.html" target="_blank" style="font-size:16px;
                         font-family:MicrosoftYaHei;
                         color:rgba(255,255,255,1);">社区</a>
-                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="container" style="border:0.5px solid #fff;margin-top: 20px;opacity: 0.7;">
-
-                </div>
-                <div class="container" style="padding-top: 20px;padding-bottom: 10px">
-                    <div class="row">
-                        <div class="col-md-5">
-                            <div class="" style="font-size:14px;
+            </div>
+            <div class="container" style="border:0.5px solid #fff;margin-top: 20px;opacity: 0.7;">
+    
+            </div>
+            <div class="container" style="padding-top: 20px;padding-bottom: 10px">
+                <div class="row">
+                    <div class="col-md-5">
+                        <div class="" style="font-size:14px;
                     font-family:MicrosoftYaHei;
                     color:rgba(255,255,255,1);">
-                                Copyright © 2018 深圳市天贝物联科技有限公司 版权所有
-                            </div>
+                            Copyright © 2018 深圳市天贝物联科技有限公司 版权所有
                         </div>
-                        <div class="col-md-7">
-                            <div >
-                                <a style="font-size:14px;
+                    </div>
+                    <div class="col-md-7">
+                        <div>
+                            <a style="font-size:14px;
                                 font-family:MicrosoftYaHei;
-                                color:rgba(255,255,255,1);text-align: left"  href="http://www.miitbeian.gov.cn">粤ICP备17149244号-1</a>
-                            </div>
+                                color:rgba(255,255,255,1);text-align: left" href="http://www.miitbeian.gov.cn" target="_blank">粤ICP备17149244号-1</a>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="hidden-lg hidden-md" style=" background: rgba(36,128,204,1);height: 135px">
-                <div style="display: flex;align-items: center;justify-content: center;padding:10px">
-                    <div style="flex:1;text-align: center">
-                        <img src="../images/tempe-2.png" width="84px" height="11px" alt="">
-                    </div>
-                    <div style="flex:1;text-align: center;margin-top: 5px">
-                        <a style="font-family:MicrosoftYaHei;
+        </div>
+        <div class="hidden-lg hidden-md" style=" background: rgba(36,128,204,1);height: 135px">
+            <div style="display: flex;align-items: center;justify-content: center;text-align: center;padding:10px 0;padding-left:22px;">
+                <div style="flex:1;">
+                    <img data-original="../images/tempe-2.png" width="84px" height="11px" alt="">
+                </div>
+                <div style="flex:1;margin-top: 5px">
+                    <a style="font-family:MicrosoftYaHei;
                 color:rgba(255,255,255,1);">关于我们</a>
-                    </div>
-                    <div style="flex:1;text-align: center;margin-top: 5px">
-                        <a style="font-family:MicrosoftYaHei;
+                </div>
+                <div style="flex:1;margin-top: 5px">
+                    <a style="font-family:MicrosoftYaHei;
                     color:rgba(255,255,255,1);" target="_blank" href="http://tt-cool.com/forum/view/employment/employment.html">人才招聘</a>
-                    </div>
-                    <div style="flex:1;text-align: center;margin-top: 5px">
-                        <a style="font-family:MicrosoftYaHei;
-                    color:rgba(255,255,255,1);" target="_blank" href="http://tt-cool.com">社区</a>
-                    </div>
                 </div>
-                <div style="padding:0px 0;border-bottom:0.5px solid #ececec;opacity: 0.8;">
+                <div style="flex:1;margin-top: 5px">
+                    <a style="font-family:MicrosoftYaHei;
+                    color:rgba(255,255,255,1);" target="_blank" href="http://tt-cool.com/forum/view/home/index.html">社区</a>
                 </div>
-                <div style="display: flex;padding:10px;flex-wrap:wrap;flex-direction: column">
-                    <div style="font-family:MicrosoftYaHei;
+            </div>
+            <div style="padding:0px 0;border-bottom:0.5px solid #ececec;opacity: 0.5;">
+            </div>
+            <div style="display: flex;padding:10px;flex-wrap:wrap;flex-direction: column">
+                <div style="font-family:MicrosoftYaHei;
                 color:rgba(253,253,253,1);
                 ">
-                        Copyright © 2018 深圳市天贝物联科技有限公司 版权所有
-                    </div>
-                    <div style="padding-top: 10px">
-                        <a style="font-family:MicrosoftYaHei;
-                        color:rgba(255,255,255,1);" href="http://www.miitbeian.gov.cn">粤ICP备17149244号-1</a>
-                    </div>
+                    Copyright © 2018 深圳市天贝物联科技有限公司 版权所有
+                </div>
+                <div style="padding-top: 10px">
+                    <a style="font-family:MicrosoftYaHei;
+                        color:rgba(255,255,255,1);" href="http://www.miitbeian.gov.cn" target="_blank">粤ICP备17149244号-1</a>
                 </div>
             </div>
-       
+        </div>
+    
     </div>
     <!-- 开发文档 -->
     <div class="container" id="show-wen" style="height: 100%; display: none;  background:rgba(255,255,255,1);margin-top: 100px">
@@ -1191,14 +1355,14 @@
                 <form id="formsx">
                     <div class="form-group" style="margin-top: 20px;">
                         <label for="exampleInputEmail1">用户名</label>
-                        <input type="text" class="form-control" id="exampleInputEmail1" placeholder="用户名" required="required">
+                        <input type="text" class="form-control" id="username" placeholder="用户名" required="required">
                     </div>
                     <div class="form-group" style="margin-top: 30px;">
                         <label for="exampleInputPassword1">密码</label>
-                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="密码" required="required">
+                        <input type="password" class="form-control"  id="password" placeholder="密码" required="required">
                     </div>
                     <div class="form-group" style="margin-top: 30px; text-align: center;">
-                        <input type="submit" id="add" value="登录" class="btn btn-primary">
+                        <span id="add"  class="btn btn-primary">登录</span>
                         <input type="reset" value="重置" class="btn btn-info" />
                     </div>
                 </form>
@@ -1251,7 +1415,7 @@
                                     <li style="color:#000">
                                         <div class="xian_x3"></div>
                                         <div>
-                                            <span style=" cursor: pointer;" id="tx4show">4.深圳宏电IPQ4019-ODM使用手册</span>
+                                            <span style=" cursor: pointer;" id="tx4show">4.IPQ4019-ODM使用手册</span>
                                         </div>
                                     </li>
                                 </ul>
@@ -1321,15 +1485,14 @@
             </div>
         </div>
     </div>
-</body>
-<script type="text/javascript" src="http://api.map.baidu.com/api?key=&v=1.1&services=true"></script>
+    <script type="text/javascript" src="http://api.map.baidu.com/api?key=&v=1.1&services=true"></script>
 <script src="../js/jquery-3.3.1.min.js"></script>
 <script src="../js/swiper-3.4.2.jquery.min.js"></script>
 <script src="../js/jquery.ztree.core.min.js"></script>
 <script src="../js/pdfobject.min.js"></script>
-<script src="../js/jquery.lazyload.js"></script>
 <script src="../js/bootstrap.min.js"></script>
 <script src="../js/lightgallery.min.js"></script>
+<script src="../js/jquery.lazyload.js"></script>
 <script src="../js/main.js"></script>
 <script>
     PDFObject.embed("../pdf/tx2.pdf", "#example1");
@@ -1343,6 +1506,9 @@
 <script>
     lightGallery(document.getElementById('lightgallery'));
     lightGallery(document.getElementById('lightgallery1'));
+    lightGallery(document.getElementById('lightgallery2'));
+    lightGallery(document.getElementById('lightgallery3'));
 </script>
 
+</body>
 </html>
